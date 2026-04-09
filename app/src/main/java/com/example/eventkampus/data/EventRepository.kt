@@ -15,7 +15,7 @@ object EventRepository {
             namaEvent = "Seminar AI",
             penyelenggara = "Informatika",
             tanggal = "10 Mei",
-            lokasi = "Aula",
+            lokasi = "ruang 203-204",
             deskripsi = "Belajar AI",
             imageResId = R.drawable.ic_launcher_foreground,
             kategori = "Seminar"
@@ -35,7 +35,7 @@ object EventRepository {
             namaEvent = "Workshop UI",
             penyelenggara = "Desain",
             tanggal = "20 Mei",
-            lokasi = "Ruang 2",
+            lokasi = "Ruang 203",
             deskripsi = "Belajar UI",
             imageResId = R.drawable.ic_launcher_foreground,
             kategori = "Workshop"
@@ -45,7 +45,7 @@ object EventRepository {
             namaEvent = "Seminar Startup",
             penyelenggara = "Bisnis",
             tanggal = "25 Mei",
-            lokasi = "Hall",
+            lokasi = "ruang 203-204l",
             deskripsi = "Startup talk",
             imageResId = R.drawable.ic_launcher_foreground,
             kategori = "Seminar"
