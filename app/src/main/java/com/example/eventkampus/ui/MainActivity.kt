@@ -6,7 +6,7 @@ import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.eventkampus.R
 import com.example.eventkampus.adapter.EventAdapter
-import com.example.eventkampus.data.EventRepository // Tambahkan ini
+import com.example.eventkampus.data.EventRepository 
 
 class MainActivity : AppCompatActivity() {
 
