@@ -1,15 +1,11 @@
 package com.example.eventkampus.data
 
-// 1. TAMBAHKAN IMPORT INI agar EventRepository mengenali class Event
 import com.example.eventkampus.model.Event
-// 2. PASTIKAN IMPORT R INI SESUAI (Cek nama package utama di AndroidManifest.xml)
 import com.example.eventkampus.R
 
 object EventRepository {
 
     private val events = listOf(
-        // Perhatikan: Nama parameter di Event.kt kamu adalah 'imageResId'
-        // Kode di bawah sudah disesuaikan urutannya dengan data class Event kamu
         Event(
             id = 1,
             namaEvent = "Seminar AI",
