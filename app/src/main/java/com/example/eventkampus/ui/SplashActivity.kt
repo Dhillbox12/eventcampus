@@ -12,14 +12,12 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        // Menyembunyikan ActionBar jika ada
         supportActionBar?.hide()
 
-        // Delay 2 detik lalu pindah ke MainActivity
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-            finish() // Agar saat di-back tidak balik ke Splash
+            finish() 
         }, 2000)
     }
 }
