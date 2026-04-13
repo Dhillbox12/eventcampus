@@ -16,13 +16,11 @@ class MainActivity : AppCompatActivity() {
 
         val listView = findViewById<ListView>(R.id.listViewEvents)
 
-        // Memanggil repository
         val events = EventRepository.getEvents()
 
         val adapter = EventAdapter(this, events)
         listView.adapter = adapter
 
-        // Klik item
         listView.setOnItemClickListener { _, _, position, _ ->
             val selectedEvent = events[position]
             val intent = Intent(this, DetailActivity::class.java)
